@@ -14,6 +14,7 @@ namespace otp_lab_25
         public int Quantity { get; private set; }
         public RequestStatus Status { get; private set; }
 
+
         private ReplenishmentRequest() { }
 
         public static ReplenishmentRequest Create(
